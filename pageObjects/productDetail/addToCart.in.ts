@@ -1,7 +1,7 @@
 export interface IAddToCart {
-    getProductName(): any;
+    getProductName(): Promise<string>;
 
-    getPrice(): any;
+    getPrice(): Promise<string>;
 
-    getAddToCart();
+    getAddToCart(): Promise<void>;
 }
