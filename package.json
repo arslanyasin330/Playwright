@@ -8,7 +8,7 @@
     "headedAll": "npx playwright test --headed",
     "multi:qa": "set URL=https://www.google.com/ && npx playwright test example --headed",
     "multi:dev": "set URL=https://www.youtube.com/ && npx playwright test example --headed",
-    "multi:prod": "set URL=https://erp.arbisoft.com/home/ && npx playwright test example --headed"
+    "multi:prod": "set URL=https://example.com/home/ && npx playwright test example --headed"
   },
   "keywords": [],
   "author": "",
